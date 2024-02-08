@@ -1,0 +1,302 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">);
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.header{
+    background-color: rgb(244, 247, 249);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.loge{
+    font-size: 1.8em;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: cadetblue;
+}
+.nav a{
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 20px;
+}
+.nav a:hover{
+    color: crimson;
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/hero-bg.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.main h2{
+    color:black;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span{
+    color: blue;
+    font-size: 3em;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+.main h3{
+    color: black;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.botton{
+    text-decoration: none;
+    background-color: rgba(3, 3, 226, 0.775);
+    color: black;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    font-weight: 700;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    border-radius: 15px ;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+    
+}
+.botton:hover{
+    background-color: rgb(8, 8, 244);
+    transform: scale(1.1);
+}
+.soial-icon a{
+    color: black;
+    font-size: 1.7em;
+    padding-right: 30px;
+    transition: 0.7s ease;
+}
+
+.soial-icon a:hover{
+    color:red;
+    transform: scale(1.1);
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color:rgb(10, 82, 225);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #fff;
+    width: 20.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon a{
+    color:blue;
+    font-size: 8em;
+    text-align: center;
+
+}
+.information{
+    text-align: center;
+}
+.information h3{
+    color: blue;
+    font-size: 2em;
+    font-weight: 1.1em;
+    margin: 10px;
+}
+.information p{
+    color: black;
+    font-size: 1em;
+    font-weight: 100;
+}
+.projects{
+    background-color: #000016;
+
+}
+.projects.content{
+    margin-top: 30px;
+}
+.project-card{
+    background-color: #fff;
+    border:1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-image img{
+    width: 100%;
+}
+.project-card .project-image:hover{
+    opacity: 0.9;
+}
+.project-inf{
+    padding: 10px;
+}
+.project-catgery{
+    font-size: 0.8em;
+    color: black;
+    margin-bottom: 10px;
+}
+.project-title{
+    display: flex;
+    justify-content:space-between;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.project-title a{
+    text-decoration: none;
+    font-size: 1.1em;
+
+}
+.project-title a:hover{
+    color: red;
+}
+.phone a{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    font-weight: 200;
+    color: blue;
+    text-decoration: none;
+}
+.cotact-infor{
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2em;
+    text-align: center;
+}
+.cotact-infor .title{
+    color: black;
+    margin: 30px;
+    font-size: 1.8em;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000016;
+    color: #fff;
+    padding: 30px;
+   
+}
+.soial-icons a{
+    color:#fff;
+    font-size: 1em;
+    padding-right: 30px;
+    transition: 0.7s ease;
+}
+
+.soial-icons a:hover{
+    color:red;
+    transform: scale(1.1);
+} 
+.footer-titele{
+    padding: 20px;
+    font-size: 2em;
+    font-weight: 500;
+}
+.span{
+    color: blueviolet;
+    text-transform: uppercase;
+}
+@media screen and (max-width:1300px) {
+
+   
+     .header{
+        padding: 12px 5px;
+    }
+    .loge{
+        font-size: 0.8em;
+        
+    }
+    .nav{
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main h2{
+        font-size: 1em;
+    }
+    .main h3{
+        font-size: 1.6em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .contact{
+        flex-direction: column;
+        align-items: center;
+    } 
+    .footer{
+        padding:  5px;
+    }
+    .soial-icons a{
+        padding: 5px;
+    }
+    ..footer-titele{
+        padding: 10px;
+    }
+    .project-card{
+     margin: 5px 2px;
+     
+    }
+   
+}
+    
+
+
+
+
